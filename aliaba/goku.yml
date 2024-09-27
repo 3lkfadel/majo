@@ -1,0 +1,24 @@
+Products:
+    css: 'div.fy23-search-card:nth-of-type(1)'
+    xpath: null
+    type: Text
+    children:
+        name:
+            css: 'h2.search-card-e-title span'
+            xpath: null 
+        price:
+            css: div.search-card-e-price-main
+            xpath: null
+            type: Text
+        seller_name:
+            css: a.search-card-e-company
+            xpath: null
+            type: Text
+        Link:
+            css: a.search-card-e-slider__link
+            xpath: null
+            type: Link
+        image_url:
+            css: 'img.picture-image picture-image-5'
+            type: Attribute
+            attribute: src
